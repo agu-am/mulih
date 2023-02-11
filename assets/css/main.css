@@ -22,7 +22,7 @@ a {
   text-decoration: none;
 }
 
-a:visited {
+a:any-link {
   color: var(--gray);
 }
 
@@ -114,7 +114,6 @@ header nav button {
   font-size: 1.8rem;
   color: var(--green);
   font-weight: 500;
-  letter-spacing: 0.5px;
   background-color: white;
 }
 
@@ -233,7 +232,6 @@ header nav button {
   font-size: 1.8rem;
   color: var(--green);
   font-weight: 500;
-  letter-spacing: 0.5px;
   background-color: #F8F9FE;
 }
 
@@ -387,7 +385,6 @@ header nav button {
   font-size: 1.8rem;
   color: var(--green);
   font-weight: 500;
-  letter-spacing: 0.5px;
   background-color: #F8F9FE;
 }
 
@@ -414,7 +411,6 @@ header nav button {
   font-size: 1.6rem;
   font-weight: 400;
   line-height: 26px;
-  letter-spacing: 0.5px;
   color: var(--gray);
 }
 
@@ -503,7 +499,6 @@ header nav button {
   font-size: 1.6rem;
   font-weight: 500;
   line-height: 24px;
-  letter-spacing: 0.0025em;
   color: var(--gray);
 }
 
@@ -512,7 +507,6 @@ header nav button {
   font-size: 72px;
   font-weight: 500;
   line-height: 80px;
-  letter-spacing: 0.0025rem;
   color: #054457;
 }
 
@@ -521,7 +515,6 @@ header nav button {
   font-size: 1.6rem;
   font-weight: 500;
   line-height: 24px;
-  letter-spacing: 0.0025em;
   text-align: left;
   color: #054457;
 }
@@ -546,7 +539,6 @@ header nav button {
   font-size: 1.8rem;
   color: var(--green);
   font-weight: 500;
-  letter-spacing: 0.5px;
   background-color: #F8F9FE;
 }
 
@@ -555,7 +547,6 @@ header nav button {
   font-size: 4.8rem;
   font-weight: 600;
   line-height: 56px;
-  letter-spacing: 0.5px;
   color: #054457;
 }
 
@@ -564,7 +555,6 @@ header nav button {
   font-size: 1.6rem;
   font-weight: 400;
   line-height: 26px;
-  letter-spacing: 0.0025rem;
   color: var(--gray);
 }
 
@@ -576,7 +566,6 @@ header nav button {
   font-weight: 500;
   font-size: 1.6rem;
   line-height: 24px;
-  letter-spacing: 0.0025rem;
   box-shadow: 24px 24px 65px rgba(81, 140, 119, 0.30);
 }
 
@@ -599,7 +588,6 @@ header nav button {
   font-size: 1.6rem;
   font-weight: 500;
   line-height: 26px;
-  letter-spacing: 0.0025em;
   display: inline-block;
 }
 
@@ -608,7 +596,6 @@ header nav button {
   font-size: 4.8rem;
   font-weight: 600;
   line-height: 58px;
-  letter-spacing: 0.0025rem;
   color: var(--blue);
 }
 
@@ -633,7 +620,6 @@ header nav button {
   font-size: 1.8rem;
   color: var(--green);
   font-weight: 500;
-  letter-spacing: 0.5px;
   background-color: #F8F9FE;
 }
 
@@ -644,7 +630,6 @@ header nav button {
   font-size: 4.8rem;
   font-weight: 600;
   line-height: 56px;
-  letter-spacing: 0.5px;
 }
 
 .customer-testimonial a {
@@ -657,7 +642,6 @@ header nav button {
   font-size: 1.8rem;
   font-weight: 500;
   line-height: 26px;
-  letter-spacing: 0.5px;
   color: var(--green);
 }
 
@@ -706,7 +690,6 @@ header nav button {
   font-size: 1.8rem;
   font-weight: 600;
   line-height: 28px;
-  letter-spacing: 0.0025rem;
 }
 
 .customer-testimonial-item p {
@@ -714,7 +697,6 @@ header nav button {
   font-size: 1.6rem;
   font-weight: 400;
   line-height: 24px;
-  letter-spacing: 0.0025rem;
 }
 
 .customer-testimonial-data {
@@ -729,7 +711,6 @@ header nav button {
   font-size: 1.6rem;
   font-weight: 600;
   line-height: 26px;
-  letter-spacing: 0.5px;
 }
 
 .customer-testimonial-data p {
@@ -737,7 +718,6 @@ header nav button {
   font-size: 1.2rem;
   font-weight: 500;
   line-height: 22px;
-  letter-spacing: 0.5px;
 }
 
 /* ---- FOOTER ---- */
@@ -764,7 +744,6 @@ footer {
   font-size: 1.6rem;
   font-weight: 400;
   line-height: 26px;
-  letter-spacing: 0.0025rem;
 }
 
 .newlester h2 {
@@ -788,7 +767,6 @@ footer {
   font-size: 1.6rem;
   font-weight: 400;
   line-height: 26px;
-  letter-spacing: 0.5px;
 }
 
 .newlester form :nth-child(2) {
