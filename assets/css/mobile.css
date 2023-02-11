@@ -2,6 +2,7 @@ header {
   width: 100%;
   padding: 0;
 }
+
 header nav div {
   display: none;
 }
@@ -60,20 +61,33 @@ header nav div {
 .discover h3 {
   font-size: 2.8rem;
 }
+
 .discover a {
-    grid-column: 1/ 2;
-    grid-row: 4 / 5;
+  grid-column: 1/ 2;
+  grid-row: 4 / 5;
 }
+
 .discover-container-cards {
   display: grid;
   grid-column: 1 / 3;
   grid-row: 5 / 6;
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-rows: 1fr;
   row-gap: 20px;
+  overflow-x: scroll;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x proximity;
+  justify-content: flex-start;
 }
+
 .discover-card {
-  width: 280px;
+  width: 270px;
+  scroll-snap-align: center;
 }
+
+.discover h4 {
+  font-size: 2rem;
+}
+
 .discover-card button {
   width: 230px;
 }
@@ -82,19 +96,24 @@ header nav div {
 
 .our-advante {
   padding: 24px 24px;
+  row-gap: 0;
 }
+
 .our-advante h3 {
   font-size: 2.8rem;
 }
+
 .our-advante-container-items {
   grid-template-rows: repeat(6, 1fr);
   grid-template-columns: 1fr;
   row-gap: 20px;
-  padding: 48px 0px;
 }
+
 .our-advante-item {
   width: 280px;
   height: 300px;
+  margin-top: 0;
+  padding: 0;
 }
 
 /* ---- ABOUT US ---- */
@@ -106,13 +125,16 @@ header nav div {
   margin-top: 220px;
   padding: 0px 0px;
 }
+
 .about-us-container-img {
   grid-column: 1 / 3;
 }
+
 .about-us-rating-container {
   left: 25px;
   box-shadow: 15px 15px 30px rgba(146, 106, 120, 0.16);
 }
+
 .about-us-detail-container {
   display: grid;
   grid-auto-flow: row;
@@ -125,21 +147,28 @@ header nav div {
   width: 175px;
   height: auto;
 }
+
 .about-us-detail-container span {
   font-size: 3rem;
 }
+
 .about-us-container-text {
   grid-column: 1 / 3;
   padding: 32px 8px;
 }
+
 .about-us-container-text h3 {
   font-size: 3rem;
   line-height: 32px
 }
+
 .about-us-container-text p {
   font-size: 1.6rem;
   line-height: 16px;
   color: var(--gray);
+}
+.about-us-container-text a {
+  padding: 10px 100px;
 }
 
 /* ---- CUSTOMER TEESTIMONIAL ---- */
@@ -149,21 +178,25 @@ header nav div {
   grid-template-rows: repeat(4, auto);
   padding: 32px 24px;
 }
+
 .customer-testimonial h3 {
   font-size: 4.8rem;
   line-height: 48px;
 }
+
 .customer-testimonial a {
   grid-column: 1 / 3;
   grid-row: 3 / 4;
 }
-.customer-testimonial-container-items{
+
+.customer-testimonial-container-items {
   grid-row: 4 / 5;
   overflow-x: scroll;
   overscroll-behavior-x: contain;
   scroll-snap-type: x proximity;
   justify-content: flex-start;
 }
+
 .customer-testimonial-item {
   width: 280px;
   scroll-snap-align: center;
@@ -175,26 +208,32 @@ footer {
   padding: 24px 24px;
   grid-template-columns: 1fr;
 }
+
 .newlester form :nth-child(1) {
   width: 200px;
   padding: 16px 0;
 }
+
 .newlester form :nth-child(2) {
   padding: 10px 10px;
 }
+
 .nav-footer {
   grid-auto-flow: row;
   row-gap: 32px;
 }
+
 .nav-footer p {
   margin-top: 8px;
 }
-.nav-footer-list{
+
+.nav-footer-list {
   margin-top: 24px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 .newlester .form {
   display: flex;
   align-items: center;
