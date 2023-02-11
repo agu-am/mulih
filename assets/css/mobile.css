@@ -77,4 +77,51 @@ header {
 
 /* ---- OUR ADVANTE ---- */
 
+.our-advante {
+  padding: 24px 24px;
+}
+.our-advante h3 {
+  font-size: 2.8rem;
+}
+.our-advante-container-items {
+  grid-template-rows: repeat(6, 1fr);
+  grid-template-columns: 1fr;
+  row-gap: 20px;
+  padding: 48px 0px;
+}
+.our-advante-item {
+  width: 280px;
+  height: 300px;
+}
 
+/* ---- ABOUT US ---- */
+
+.about-us {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: end;
+  margin-top: 220px;
+  padding: 0px 0px;
+}
+.about-us-container-img {
+  grid-column: 1 / 3;
+}
+.about-us-rating-container {
+  left: 25px;
+  box-shadow: 15px 15px 30px rgba(146, 106, 120, 0.16);
+}
+.about-us-detail-container {
+  display: grid;
+  grid-auto-flow: row;
+  justify-items: center;
+  align-items: center;
+  position: absolute;
+  right: 0px;
+  bottom: 0;
+  background-color: white;
+  width: 175px;
+  height: auto;
+}
+.about-us-detail-container span {
+  font-size: 3rem;
+}
