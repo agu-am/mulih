@@ -1,0 +1,80 @@
+header {
+  width: 100%;
+  padding: 0;
+}
+
+/* ---- HOME ---- */
+
+.home {
+  padding: 0px 20px;
+  background-size: 80%;
+  background-position: 100% 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(4, auto);
+  justify-items: center;
+  align-content: center
+}
+
+.home h1 {
+  position: static;
+  font-size: 3rem;
+  margin-bottom: 24px;
+}
+
+.home h2 {
+  position: static;
+  margin-bottom: 24px;
+}
+
+.home p {
+  position: static;
+  margin-bottom: 24px;
+}
+
+.home-container-btn {
+  position: static;
+}
+
+.home form {
+  position: static;
+  background-color: white;
+  width: 200px;
+  height: 300px;
+  font-size: 1.8rem;
+  display: flex;
+  flex-direction: column;
+  align-self: end;
+}
+
+/* ---- DISCOVER ---- */
+
+.discover {
+  padding: 24px 24px;
+  grid-template-rows: repeat(5, auto);
+}
+
+.discover h3 {
+  font-size: 2.8rem;
+}
+.discover a {
+    grid-column: 1/ 2;
+    grid-row: 4 / 5;
+}
+.discover-container-cards {
+  display: grid;
+  grid-column: 1 / 3;
+  grid-row: 5 / 6;
+  grid-template-rows: repeat(3, 1fr);
+  row-gap: 20px;
+}
+.discover-card {
+  width: 280px;
+}
+.discover-card button {
+  width: 230px;
+}
+
+/* ---- OUR ADVANTE ---- */
+
+
