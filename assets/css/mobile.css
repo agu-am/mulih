@@ -9,20 +9,27 @@
 
 header {
   width: 100vw;
-  padding: 0;
+  padding: 10px 5px;
 }
+
 header nav {
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-auto-flow: row;
   height: 60px;
   position: relative;
   justify-items: center
 }
-header nav div ul {
+
+header nav button {
+  width: 280px;
+  height: 80px;
+}
+
+.header-container-ul ul {
   flex-direction: column;
   row-gap: 32px;
-  z-index: 3;
-  
+  font-size: 5rem;
+  margin: 0;
 }
 
 .icon-bars {
@@ -30,30 +37,42 @@ header nav div ul {
   background-image: url("../icons/bars.svg");
   width: 40px;
   height: 40px;
-  color: black;
-  right: 10px;
-  top: 10px; 
+  justify-self: end;
+  margin-right: 24px;
 }
+
 .header-container-ul {
   position: fixed;
   display: flex;
   flex-direction: column;
   height: 100vh;
   width: 100%;
-  top: 60px;
-  left:-100%;
+  top: 80px;
+  left: -100%;
   background-color: var(--gray-soft);
-  justify-content: space-evenly;
+  justify-content: center;
   text-align: center;
   transition: all .5s;
+  row-gap: 24px;
 }
+
 .show-menu {
   left: 0;
 }
+
 .header-containeer-btn {
-  flex-direction: row;
+  flex-direction: column;
   row-gap: 24px;
 }
+
+.btn-sign {
+  font-size: 3rem;
+}
+
+.btn-login {
+  font-size: 3rem;
+}
+
 
 /* ---- HOME ---- */
 
@@ -149,19 +168,31 @@ header nav div ul {
 
 .our-advante h3 {
   font-size: 2.8rem;
+  margin-bottom: 24px;
+}
+
+.our-advante h4 {
+  font-size: 2.7rem;
+  text-align: center;
+  margin-top: 0;
 }
 
 .our-advante-container-items {
-  grid-template-rows: repeat(6, 1fr);
-  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   row-gap: 20px;
+  justify-items: center
 }
 
 .our-advante-item {
-  width: 280px;
-  height: 300px;
+  width: 160px;
+  height: 400px;
   margin-top: 0;
   padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 /* ---- ABOUT US ---- */
@@ -212,9 +243,9 @@ header nav div ul {
 
 .about-us-container-text p {
   font-size: 1.6rem;
-  line-height: 16px;
   color: var(--gray);
 }
+
 .about-us-container-text a {
   padding: 10px 100px;
 }
@@ -258,6 +289,16 @@ footer {
   grid-template-columns: 1fr;
 }
 
+.newlester {
+  align-items: center;
+}
+
+.newlester h2 {
+  font-size: 3rem;
+}
+.newlester p {
+  text-align: center;
+}
 .newlester form :nth-child(1) {
   width: 200px;
   padding: 16px 0;
@@ -265,6 +306,23 @@ footer {
 
 .newlester form :nth-child(2) {
   padding: 10px 10px;
+}
+
+.newlester img {
+  width: 40%;
+}
+
+.newlester .form {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.nav-footer-list {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .nav-footer {
@@ -276,15 +334,7 @@ footer {
   margin-top: 8px;
 }
 
-.nav-footer-list {
-  margin-top: 24px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.newlester .form {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
+.nav-footer h2 {
+  font-size: 3rem;
+  font-weight: 600;
 }
