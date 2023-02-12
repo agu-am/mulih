@@ -8,7 +8,9 @@
   <title>Mulih</title>
   <!-- CSS -->
   <link rel="stylesheet" href="assets/css/main.css">
-  <link rel="stylesheet" href="assets/css/mobile.css" media="(max-width: 400px)">
+  <link rel="stylesheet" href="assets/css/mobile.css" media="(min-width: 320px) and (max-width: 430px)">
+  <!-- ---- JS ---- -->
+  <script src="./assets/main.js" defer ></script>
   <!-- FONT FAMILY-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,7 +26,7 @@
   <header>
     <nav>
       <img src="assets/images/logo-mulih.png" alt="" srcset="">
-      <div>
+      <div class="header-container-ul">
         <ul>
           <li><a href="">Home</a></li>
           <li><a href="">Property</a></li>
@@ -32,11 +34,12 @@
           <li><a href="">Service</a></li>
           <li><a href="">Contact</a></li>
         </ul>
-        <div>
+        <div class="header-containeer-btn">
           <button class="btn-sign">Sign in</button>
           <button class="btn-login">Login</button>
         </div>
       </div>
+      <i class="icon-bars" id="menuBtn"></i>
     </nav>
   </header>
   <main>
@@ -245,16 +248,30 @@
     <section class="nav-footer">
       <div class="nav-footer-list">
         <h2>Service</h2>
-        <a href="#"> <p>About us</p></a>
-        <a href="#"> <p>Careers</p></a>
-        <a href="#"> <p>Terms & Conditions</p></a>
-        <a href="#"> <p>Privacy & Policy</p></a>
+        <a href="#">
+          <p>About us</p>
+        </a>
+        <a href="#">
+          <p>Careers</p>
+        </a>
+        <a href="#">
+          <p>Terms & Conditions</p>
+        </a>
+        <a href="#">
+          <p>Privacy & Policy</p>
+        </a>
       </div>
       <div class="nav-footer-list">
         <h2>Community</h2>
-        <a href="#"> <p>Find agents</p></a>
-        <a href="#"> <p>Lifestyle</p></a>
-        <a href="#"> <p>Legal notic</p></a>
+        <a href="#">
+          <p>Find agents</p>
+        </a>
+        <a href="#">
+          <p>Lifestyle</p>
+        </a>
+        <a href="#">
+          <p>Legal notic</p>
+        </a>
       </div>
       <div class="nav-footer-list">
         <h2>Follow us on</h2>
