@@ -1,5 +1,5 @@
 const btnBars = document.querySelector('#menuBtn')
-const navMenu = document.querySelector('.header-container-ul')
+const navMenu = document.querySelector('.nav-menu')
 
 
 btnBars.addEventListener('click', () => {

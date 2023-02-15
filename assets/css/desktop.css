@@ -1,0 +1,209 @@
+header {
+    height: unset;
+    display: grid;
+    grid-auto-flow: column;
+    padding: 16px 32px;
+}
+
+h2 {
+    width: 162px;
+    height: 50px;
+    font-size: 1.8rem;
+}
+
+.icon-bars {
+    display: none;
+}
+
+.nav-menu {
+    position: relative;
+    grid-auto-flow: column;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: none;
+    justify-items: end
+}
+
+.nav-menu ul {
+    display: flex;
+    column-gap: 48px;
+}
+
+.nav-menu ul a {
+    font-size: 1.8rem;
+}
+
+.header-containeer-btn {
+    width: 80%;
+}
+
+.header-containeer-btn button {
+    font-size: 1.8rem;
+}
+
+/* ---- HOME ----  */
+.home {
+    padding: 0 124px;
+    justify-items: start;
+    justify-content: start;
+    align-content: center;
+    background-image: url("../images/house-home.png");
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.home h1 {
+    margin-top: 32px;
+}
+
+.home p {
+    margin-top: 24px;
+    margin-bottom: 64px;
+    font-size: 1.6rem;
+    line-height: 24px;
+}
+
+.home form {
+    width: 751px;
+    justify-self: unset;
+    background-color: transparent;
+}
+
+.home-container-btn {
+    height: unset;
+    background-color: transparent;
+}
+
+.home-form-container {
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: unset;
+    padding: 32px;
+    box-shadow: 35px 35px 65px rgba(146, 106, 120, 0.16);
+    background-color: white;
+}
+
+.home-form-container div input {
+    height: unset;
+}
+
+.home-form-container div label {
+    font-size: 1.8rem;
+}
+
+.down-arrow {
+    width: 15.5px;
+    height: 8.5px;
+}
+
+.home-form-container div input::placeholder {
+    font-size: 1.8rem;
+}
+
+.home-container-btn button {
+    width: 109px;
+    height: 56px;
+    font-size: 2.4rem;
+}
+
+.home form>.home-form-container button {
+    width: 200px;
+    height: 60px;
+    margin-left: unset;
+    transform: unset;
+    font-size: 1.6rem;
+}
+
+/* ---- DISCOVER ---- */
+
+.discover {
+    padding: 16px 124px;
+}
+
+.discover h3 {
+    font-size: 4.8rem;
+    justify-self: self-start;
+}
+
+.discover p {
+    font-size: 1.6rem;
+    line-height: 26px;
+    justify-self: self-start;
+}
+
+.discover a {
+    font-size: 1.8rem;
+}
+
+.discover a i {
+    width: 20px;
+    height: 20px;
+}
+
+.discover-container-cards {
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    max-width: 1500px;
+}
+
+.discover-card {
+    width: 100%;
+}
+
+.discover-card h4 {
+    font-size: 2.4rem;
+}
+
+.discover-card .discover-card-detail-price {
+    font-size: 2.4rem;
+}
+
+.discover-card .discover-card-detail-area {
+    font-size: 1.6rem;
+}
+
+/* ---- OUR ADVENTE ---- */
+.our-advante {
+    padding: 16px 124px;
+}
+
+.our-advante h3 {
+    font-size: 4.8rem;
+}
+
+.our-advante p {
+    font-size: 1.6rem;
+}
+
+.our-advante-container-items {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.icon-our-advante {
+    width: 45px;
+    height: 45px;
+}
+
+/* ---- ABOUT US ---- */
+
+.about-us {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 16px 124px;
+}
+
+.about-us-container-text {
+    grid-area: 1 / 2 / 1 / 3;
+    padding: 56px;
+    align-items: center;
+}
+
+.about-us .about-us-container-text h3 {
+    font-size: 4.8rem;
+    line-height: 56px;
+}
+.about-us .about-us-container-text p {
+    font-size: 1.6rem;
+    line-height: 26px;
+}

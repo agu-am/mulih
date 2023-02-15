@@ -1,0 +1,280 @@
+:root {
+    --font-rubik: 'Rubik', sans-serif;
+    --font-poppins: 'Poppins', sans-serif;
+    --green: #69B99D;
+    --blue: #1F2744;
+    --gray: #73788C;
+    --gray-soft-2: #F8F9FE;
+    --gray-soft-1: #F5F5F5;
+}
+
+h2 {
+    width: 400px;
+    height: 80px;
+    font-size: 4rem;
+}
+/* ---- NAV ----  */
+.nav-menu ul a {
+    font-size: 7rem;
+    line-height: 100px;
+  }
+  .header-containeer-btn {
+    height: 80px;
+  }
+
+/* ---- HOME ---- */
+
+.home {
+    align-content: space-evenly;
+}
+
+.home h1 {
+    font-size: 7rem;
+    line-height: 64px;
+}
+
+.home p {
+    font-size: 3rem;
+    margin: 0;
+    line-height: 32px;
+}
+
+.home-container-btn {
+    height: 90px;
+    align-items: center;
+    background-color: var(--gray-soft-1);
+}
+
+.home-container-btn button {
+    font-size: 4rem;
+    height: 100%;
+}
+
+.btn-buy,
+.btn-rent {
+    width: 25%;
+}
+
+.home-form-container div label {
+    font-size: 3rem;
+}
+
+.down-arrow {
+    width: 30px;
+    height: 30px;
+}
+
+.home-form-container div input {
+    height: 40px;
+}
+
+.home-form-container div input::placeholder {
+    font-size: 2.5rem;
+}
+
+.home form>.home-form-container button {
+    height: 70px;
+    font-size: 3rem;
+}
+
+/* ---- DISCOVER ---- */
+
+.discover h3 {
+    font-size: 6.5rem;
+}
+
+.discover p {
+    font-size: 4rem;
+    line-height: 48px;
+}
+
+.discover a {
+    font-size: 4rem;
+}
+
+.icon-right-arrow-green {
+    width: 40px;
+    height: 40px;
+}
+
+.discover-card h4 {
+    font-size: 4rem;
+}
+
+.discover-card p {
+    font-size: 3rem;
+}
+
+.discover-card .discover-card-detail-price {
+    font-size: 6rem;
+}
+
+.discover-card .discover-card-detail-area {
+    font-size: 3rem;
+    padding: 0 32px;
+    column-gap: 24px;
+}
+
+.discover-card button {
+    height: 80px;
+    font-size: 3rem;
+}
+
+/* ---- OUR ADVANTE ---- */
+
+.our-advante h3 {
+    font-size: 7rem;
+}
+
+.our-advante-item {
+    padding: 16px;
+}
+
+.icon-our-advante {
+    width: 90px;
+    height: 90px;
+}
+
+.our-advante-item h4 {
+    font-size: 4rem;
+}
+
+.our-advante-item p {
+    font-size: 3rem;
+}
+
+/* ---- ABOUT US ---- */
+.about-us .about-us-container-text h3 {
+    font-size: 7rem;
+}
+
+.about-us .about-us-container-text p {
+    font-size: 3rem;
+}
+
+.about-us .about-us-container-text a {
+    padding: 24px 100px;
+    font-size: 3rem;
+}
+
+.about-us-rating-container {
+    width: 174px;
+    height: 236px;
+}
+
+.about-us-rating-container p {
+    font-size: 2.3rem;
+}
+
+.about-us-rating-container .review {
+    font-size: 2.3rem;
+}
+
+.about-us-container-img {
+    height: 600px;
+}
+
+.about-us-detail-container {
+    width: 75%;
+    height: 100px;
+}
+
+.about-us-detail-container span {
+    font-size: 4.6rem;
+}
+
+.about-us-detail-container p {
+    font-size: 2.3rem;
+}
+
+/* ---- CUSTOMER TSTIMONIAL ---- */
+
+.customer-testimonial h2 {
+    width: 490px;
+}
+
+.customer-testimonial h3 {
+    font-size: 6rem;
+}
+
+.customer-testimonial a {
+    font-size: 4rem;
+}
+
+.customer-testimonial a i {
+    width: 40px;
+    height: 40px;
+}
+
+.icon-quote {
+    width: 60px;
+    height: 60px;
+}
+
+.customer-testimonial-item {
+    height: 600px;
+}
+
+.customer-testimonial-container-items h4 {
+    font-size: 3rem;
+}
+
+.customer-testimonial-container-items p {
+    font-size: 3rem;
+}
+
+.customer-testimonial-data img {
+    width: 20%;
+}
+
+.customer-testimonial-data h5 {
+    font-size: 3rem;
+}
+
+/* ---- FOOTER ---- */
+.newlester img {
+    width: 33%;
+}
+.newlester p {
+    font-size: 3rem;
+}
+
+.newlester h2 {
+    font-size: 5rem;
+}
+
+.newlester form {
+    height: 80px;
+    align-items: baseline;
+}
+
+.newlester form input:nth-child(1) {
+    height: 100%;
+}
+
+.newlester form input:nth-child(1)::placeholder {
+    font-size: 3rem;
+}
+
+.newlester form input:nth-child(2) {
+    height: 100%;
+    font-size: 3rem;
+}
+.nav-footer-list h2 {
+    font-size: 4rem;
+}
+.nav-footer-list p {
+    font-size: 3rem;
+}
+.instagram {
+    width: 80px;
+    height: 80px;
+}
+.youtube {
+    width: 80px;
+    height: 80px;
+}
+.facebook {
+    width: 80px;
+    height: 80px;
+}

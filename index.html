@@ -8,14 +8,15 @@
   <title>Mulih</title>
   <!-- CSS -->
   <link rel="stylesheet" href="assets/css/main.css">
-  <link rel="stylesheet" href="assets/css/mobile.css" media="(min-width: 320px) and (max-width: 430px)">
+  <link rel="stylesheet" href="assets/css/tablet.css" media="(min-width: 768px)">
+  <link rel="stylesheet" href="assets/css/desktop.css" media="(min-width: 1366px)">
   <!-- ---- JS ---- -->
-  <script src="./assets/main.js" defer ></script>
+  <script src="./assets/main.js" defer></script>
   <!-- FONT FAMILY-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;900&family=Rubik:wght@500;700;900&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&family=Rubik:wght@500;700;900&display=swap"
     rel="stylesheet">
 </head>
 
@@ -25,8 +26,8 @@
 
   <header>
     <nav>
-      <img src="assets/images/logo-mulih.png" alt="" srcset="">
-      <div class="header-container-ul">
+      <img src="assets/icons/mulih-logo.svg" alt="" srcset="">
+      <div class="nav-menu">
         <ul>
           <li><a href="">Home</a></li>
           <li><a href="">Property</a></li>
@@ -52,24 +53,26 @@
         dream residence</h1>
       <p>Explore our range of beautiful properties with the addition of<br>
         separate accommodation suitable for you.</p>
-      <div class="home-container-btn">
-        <button class="btn-buy">Buy</button>
-        <button class="btn-rent">Rent</button>
-      </div>
       <form action="/">
-        <div>
-          <label for="location">Location <i class="down-arrow"></i></label><br>
-          <input type="text" name="location" placeholder="Bogor, Jawa Barat">
+        <div class="home-container-btn">
+          <button class="btn-buy">Buy</button>
+          <button class="btn-rent">Rent</button>
         </div>
-        <div>
-          <label for="type">Type <i class="down-arrow"></i></label><br>
-          <input type="text" name="type" placeholder="Home">
+        <div class="home-form-container">
+          <div>
+            <label for="location">Location <i class="down-arrow"></i></label><br>
+            <input type="text" name="location" placeholder="Bogor, Jawa Barat">
+          </div>
+          <div>
+            <label for="type">Type <i class="down-arrow"></i></label><br>
+            <input type="text" name="type" placeholder="Home">
+          </div>
+          <div>
+            <label for="price">Price Range <i class="down-arrow"></i></label><br>
+            <input type="text" name="price" placeholder="$200-$350">
+          </div>
+          <button>Search</button>
         </div>
-        <div>
-          <label for="price">Price Range <i class="down-arrow"></i></label><br>
-          <input type="text" name="price" placeholder="$200-$350">
-        </div>
-        <button>Search</button>
       </form>
     </section>
 
@@ -78,8 +81,8 @@
     <section class="discover">
       <h2>DISCOVER</h2>
       <h3>Best recomendation</h3>
-      <p>Discover our exclusive selection of the finest one-of-a-kind luxury properties architectural masterpieces.</p>
-      <a href="">Learn More <i class="icon-right-arrow-learn-more"></i></a>
+      <p>Discover our exclusive selection of the finest one-of-a-kind <br>luxury properties architectural masterpieces.</p>
+      <a href="">Learn More <i class="icon-right-arrow-green"></i></a>
       <section class="discover-container-cards">
         <article class="discover-card">
           <img src="./assets/images/house-1.jpg" alt="">
@@ -158,7 +161,17 @@
         </article>
       </section>
     </section>
+
+    <!-- ---- ABOUT US ---- -->
+
     <section class="about-us">
+      <div class="about-us-container-text">
+        <h2>ABOUT US</h2>
+        <h3>How much is your property worth now?</h3>
+        <p>We have built our reputation as true local area experts. We have gained more knowledge about buyer interests,
+          our neighborhood and the market than any other brand because we live locally and work for local people.</p>
+        <a href="">Learn More</a>
+      </div>
       <div class="about-us-container-img">
         <div class="about-us-rating-container">
           <i class="icon-about-us"></i>
@@ -173,13 +186,6 @@
           <span>550+</span>
           <p>Apartmen<br>Rent</p>
         </div>
-      </div>
-      <div class="about-us-container-text">
-        <h2>ABOUT US</h2>
-        <h3>How much is your property worth now?</h3>
-        <p>We have built our reputation as true local area experts. We have gained more knowledge about buyer interests,
-          our neighborhood and the market than any other brand because we live locally and work for local people.</p>
-        <a href="">Learn More</a>
       </div>
     </section>
 
@@ -237,7 +243,7 @@
 
   <footer>
     <section class="newlester">
-      <img src="./assets/images/logo-mulih.png" alt="">
+      <img src="./assets/icons/mulih-logo.svg" alt="">
       <p>We have built our reputation as true local area experts.</p>
       <h2>Newsletter</h2>
       <form action="">
