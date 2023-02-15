@@ -251,7 +251,21 @@ h2 {
     grid-template-columns: repeat(3, minmax(400px, 1fr));
     overflow-x: hidden;
 }
-
+.customer-testimonial-item {
+    height: 450px;
+}
+.customer-testimonial-container-items h4 {
+    font-size: 1.8rem;
+}
+.customer-testimonial-container-items p {
+    font-size: 1.6rem;
+}
+.customer-testimonial-data h5 {
+    font-size: 1.8rem;
+}
+.customer-testimonial-data img {
+    width: unset;
+}
 /* ---- FOOTER ---  */
 
 footer {
