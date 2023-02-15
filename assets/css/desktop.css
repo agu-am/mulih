@@ -38,6 +38,7 @@ h2 {
 .header-containeer-btn {
     width: 80%;
     justify-content: end;
+    align-items: center;
 }
 
 .header-containeer-btn button {
@@ -236,10 +237,95 @@ h2 {
     grid-area: 2 / 2 / 3 / 3;
     font-size: 1.8rem;
 }
+
 .customer-testimonial a i {
     width: 20px;
     height: 20px;
 }
+
 .customer-testimonial-container-items {
     grid-area: 3 / 1 / 4 / 3;
+}
+
+.customer-testimonial-container-items {
+    grid-template-columns: repeat(3, minmax(400px, 1fr));
+}
+
+/* ---- FOOTER ---  */
+
+footer {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.newlester {
+    justify-content: space-evenly;
+    row-gap: 16px;
+}
+
+.newlester form {
+    align-items: unset;
+    width: 350px;
+    height: 42px;
+    justify-content: flex-start;
+}
+
+.newlester img {
+    width: 22%;
+}
+
+.newlester p {
+    font-size: 1.6rem;
+}
+
+.newlester h2 {
+    font-size: 2rem;
+    text-align: unset;
+    width: unset;
+    height: unset;
+    display: unset;
+    font-family: var(--font-poppins);
+    font-weight: 500;
+}
+
+.newlester form input:nth-child(1)::placeholder {
+    font-size: 1.6rem;
+}
+
+.newlester form input:nth-child(2) {
+    font-size: 1.6rem;
+}
+
+.nav-footer {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.nav-footer-list {
+    align-items: flex-start;
+    row-gap: 16px;
+}
+
+.nav-footer-list h2 {
+    font-size: 2rem;
+    text-align: unset;
+    width: unset;
+    height: unset;
+    display: unset;
+    font-family: var(--font-poppins);
+    font-weight: 500;
+}
+
+.nav-footer-list p {
+    font-size: 1.6rem;
+}
+.facebook {
+    width: 40px;
+    height: 40px;
+}
+.youtube {
+    width: 40px;
+    height: 40px;
+}
+.instagram {
+    width: 40px;
+    height: 40px;
 }

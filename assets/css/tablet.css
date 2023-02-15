@@ -13,14 +13,16 @@ h2 {
     height: 80px;
     font-size: 4rem;
 }
+
 /* ---- NAV ----  */
 .nav-menu ul a {
     font-size: 7rem;
     line-height: 100px;
-  }
-  .header-containeer-btn {
+}
+
+.header-containeer-btn {
     height: 80px;
-  }
+}
 
 /* ---- HOME ---- */
 
@@ -171,19 +173,21 @@ h2 {
 
 .about-us-container-img {
     height: 600px;
+    min-width: 450px;
 }
 
 .about-us-detail-container {
     width: 75%;
     height: 100px;
+    min-width: 450px;
 }
 
 .about-us-detail-container span {
-    font-size: 4.6rem;
+    font-size: 4rem;
 }
 
 .about-us-detail-container p {
-    font-size: 2.3rem;
+    font-size: 2rem;
 }
 
 /* ---- CUSTOMER TSTIMONIAL ---- */
@@ -234,6 +238,7 @@ h2 {
 .newlester img {
     width: 33%;
 }
+
 .newlester p {
     font-size: 3rem;
 }
@@ -259,20 +264,25 @@ h2 {
     height: 100%;
     font-size: 3rem;
 }
+
 .nav-footer-list h2 {
     font-size: 4rem;
 }
+
 .nav-footer-list p {
     font-size: 3rem;
 }
+
 .instagram {
     width: 80px;
     height: 80px;
 }
+
 .youtube {
     width: 80px;
     height: 80px;
 }
+
 .facebook {
     width: 80px;
     height: 80px;

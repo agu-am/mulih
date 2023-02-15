@@ -639,13 +639,14 @@ footer {
   display: grid;
   padding: 16px;
   background-color: var(--gray-soft-1);
+  padding: 16px 124px 100px;
 }
 
 .newlester {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: start;
+  align-items: start;
 }
 
 .newlester img {
@@ -690,6 +691,7 @@ footer {
   width: 20%;
   background-color: var(--green);
   color: white;
+  cursor: pointer;
   box-shadow: 0px 0px 30px rgba(105, 185, 157, 0.377);
 }
 
