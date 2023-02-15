@@ -249,6 +249,7 @@ h2 {
 
 .customer-testimonial-container-items {
     grid-template-columns: repeat(3, minmax(400px, 1fr));
+    overflow-x: hidden;
 }
 
 /* ---- FOOTER ---  */
@@ -261,6 +262,7 @@ footer {
 .newlester {
     justify-content: space-evenly;
     row-gap: 16px;
+    align-items: flex-start;
 }
 
 .newlester form {
