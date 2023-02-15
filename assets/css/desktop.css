@@ -255,6 +255,7 @@ h2 {
 
 footer {
     grid-template-columns: repeat(2, 1fr);
+    padding: 16px 124px 100px;
 }
 
 .newlester {
@@ -317,14 +318,17 @@ footer {
 .nav-footer-list p {
     font-size: 1.6rem;
 }
+
 .facebook {
     width: 40px;
     height: 40px;
 }
+
 .youtube {
     width: 40px;
     height: 40px;
 }
+
 .instagram {
     width: 40px;
     height: 40px;

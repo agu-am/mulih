@@ -249,7 +249,7 @@ h2 {
 
 .newlester form {
     height: 80px;
-    align-items: baseline;
+    align-items: unset;
 }
 
 .newlester form input:nth-child(1) {

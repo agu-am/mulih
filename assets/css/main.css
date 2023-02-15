@@ -639,14 +639,13 @@ footer {
   display: grid;
   padding: 16px;
   background-color: var(--gray-soft-1);
-  padding: 16px 124px 100px;
 }
 
 .newlester {
   display: flex;
   flex-direction: column;
-  justify-content: start;
-  align-items: start;
+  justify-content: center;
+  align-items: center;
 }
 
 .newlester img {
