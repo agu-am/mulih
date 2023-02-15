@@ -3,7 +3,7 @@
   --font-poppins: 'Poppins', sans-serif;
   --green: #69B99D;
   --blue: #1F2744;
-  --blue-1:#054457;
+  --blue-1: #054457;
   --gray: #73788C;
   --gray-soft-1: #F5F5F5;
   --gray-soft-2: #F8F9FE;
@@ -45,7 +45,7 @@ header {
   width: 100%;
   height: 8vh;
   background-color: var(--gray-soft-1);
-  z-index: 1;
+  z-index: 2;
 }
 
 nav {
@@ -76,6 +76,7 @@ nav {
   justify-items: center;
   row-gap: 25px;
   transition: all .5s;
+  z-index: 1;
 }
 
 .show-menu {
@@ -444,11 +445,15 @@ nav {
 }
 
 .about-us .about-us-container-text a {
-  padding: 8px 14px;
   background-color: var(--green);
   color: white;
   justify-self: start;
   font-family: var(--font-poppins);
+  width: 186px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .about-us-container-img {
@@ -547,6 +552,7 @@ nav {
 
 .customer-testimonial h3 {
   font-size: 3rem;
+  color: var(--blue-1);
 }
 
 .customer-testimonial a {
