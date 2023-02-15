@@ -221,6 +221,7 @@ nav {
   background-color: var(--green);
   color: white;
   height: 40px;
+  cursor: pointer;
 }
 
 /* --- DISCOVER ----  */
@@ -335,6 +336,7 @@ nav {
   color: var(--green);
   height: 32px;
   margin-top: 16px;
+  cursor: pointer;
 }
 
 .discover-card .discover-card-btn {
