@@ -16,7 +16,6 @@
 }
 
 html {
-  font-size: 62.5%;
   font-family: var(--font-rubik);
 }
 
@@ -37,6 +36,7 @@ h2 {
   justify-content: center;
   font-family: var(--font-poppins);
   font-weight: 500;
+  font-size: 1.125rem;
 }
 
 /* ---- NAV ---- */
@@ -90,7 +90,7 @@ nav {
 }
 
 .nav-menu ul a {
-  font-size: 3rem;
+  font-size: 1.25rem;
   line-height: 60px;
 }
 
@@ -104,7 +104,7 @@ nav {
 .header-containeer-btn button {
   width: 49%;
   border: none;
-  font-size: 3rem;
+  font-size: 2rem;
   font-family: var(--font-poppins);
 }
 
@@ -135,13 +135,13 @@ nav {
 }
 
 .home h1 {
-  font-size: 3rem;
+  font-size: 2rem;
   color: var(--blue);
   margin-top: 16px;
 }
 
 .home p {
-  font-size: 1.6rem;
+  font-size: 1rem;
   color: var(--gray);
   margin: 24px 0;
   font-family: var(--font-poppins);
@@ -155,7 +155,7 @@ nav {
 .home-container-btn button {
   font-family: var(--font-rubik);
   border: none;
-  font-size: 1.8rem;
+  font-size: 1.125rem;
   font-weight: 500;
 }
 
@@ -188,7 +188,7 @@ nav {
 }
 
 .home form label {
-  font-size: 1.6rem;
+  font-size: 1rem;
   padding: 8px 16px 0px;
   display: flex;
   align-items: center;
@@ -207,7 +207,7 @@ nav {
 
 .home form input {
   border: none;
-  font-size: 1.6rem;
+  font-size: 1rem;
   width: 100%;
   height: 24px;
   padding: 8px 16px;
@@ -240,18 +240,18 @@ nav {
 }
 
 .discover h3 {
-  font-size: 3rem;
+  font-size: 2rem;
   color: var(--blue-1);
 }
 
 .discover p {
-  font-size: 1.6rem;
+  font-size: 1rem;
   color: var(--gray);
   font-family: var(--font-poppins);
 }
 
 .discover a {
-  font-size: 1.6rem;
+  font-size: 1rem;
   color: var(--green);
   justify-self: flex-end;
   display: flex;
@@ -271,19 +271,16 @@ nav {
 
 .discover-container-cards {
   display: grid;
-  grid-auto-flow: column;
-  column-gap: 32px;
-  width: 90%;
-  overflow-x: scroll;
-  overscroll-behavior-x: contain;
-  scroll-snap-type: x proximity;
+  grid-template-columns: 1fr;
+  gap: 32px;
+  width: 100%;
+  max-width: 1500px;
 }
 
 .discover-card {
   width: 100%;
   border: 1px solid #DEDCDA;
   padding: 16px;
-  scroll-snap-align: center;
 }
 
 .discover-card img {
@@ -291,7 +288,7 @@ nav {
 }
 
 .discover-card h4 {
-  font-size: 1.8rem;
+  font-size: 1.125rem;
   color: var(--blue);
 }
 
@@ -311,7 +308,7 @@ nav {
 
 .discover-card .discover-card-detail-price {
   color: var(--green);
-  font-size: 2rem;
+  font-size: 1.25rem;
   font-weight: 600;
 }
 
@@ -339,7 +336,7 @@ nav {
   cursor: pointer;
 }
 
-.discover-card .discover-card-btn {
+.discover-card button:hover {
   background-color: var(--green);
   color: white;
   box-shadow: 0px 0px 20px rgba(105, 185, 157, 0.58);
@@ -359,16 +356,18 @@ nav {
 }
 
 .our-advante h3 {
-  font-size: 3rem;
+  font-size: 2rem;
   color: var(--blue-1);
 }
 
 .our-advante-container-items {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1fr;
+  justify-self: center;
   column-gap: 16px;
   row-gap: 16px;
   margin-top: 32px;
+  max-width: 1500px;
 }
 
 .our-advante-item {
@@ -409,7 +408,7 @@ nav {
 }
 
 .our-advante-item h4 {
-  font-size: 2rem;
+  font-size: 1.25rem;
   color: var(--blue-1);
 }
 
@@ -436,13 +435,13 @@ nav {
 }
 
 .about-us .about-us-container-text h3 {
-  font-size: 3rem;
+  font-size: 2rem;
   color: var(--blue-1);
 }
 
 .about-us .about-us-container-text p {
   color: var(--gray);
-  font-size: 1.6rem;
+  font-size: 1rem;
   font-family: var(--font-poppins);
 }
 
@@ -484,7 +483,7 @@ nav {
 }
 
 .about-us-rating-container p {
-  font-size: 1.6rem;
+  font-size: 1rem;
   font-family: var(--font-poppins);
   color: var(--gray)
 }
@@ -505,14 +504,14 @@ nav {
 }
 
 .about-us-rating-container .score {
-  font-size: 7.2rem;
+  font-size: 2.5rem;
   line-height: 70px;
   color: var(--blue-1);
 }
 
 .about-us-rating-container .review {
   color: var(--blue-1);
-  font-size: 1.4rem;
+  font-size: 1.2.5rem;
 }
 
 .about-us-detail-container {
@@ -528,13 +527,13 @@ nav {
 }
 
 .about-us-detail-container span {
-  font-size: 3rem;
+  font-size: 2rem;
   color: var(--blue-1);
 }
 
 .about-us-detail-container p {
   font-family: var(--font-poppins);
-  font-size: 1.2rem;
+  font-size: 1.25rem;
   font-weight: lighter;
   color: #A6A6A6;
 }
@@ -553,12 +552,12 @@ nav {
 }
 
 .customer-testimonial h3 {
-  font-size: 3rem;
+  font-size: 2rem;
   color: var(--blue-1);
 }
 
 .customer-testimonial a {
-  font-size: 1.6rem;
+  font-size: 1rem;
   color: var(--green);
   justify-self: end;
   display: flex;
@@ -577,12 +576,10 @@ nav {
 
 .customer-testimonial-container-items {
   display: grid;
-  grid-auto-flow: column;
-  grid-template-columns: repeat(3, 70%);
+  grid-template-columns: 1fr;
   margin-top: 32px;
-  overflow-x: scroll;
-  overscroll-behavior-x: contain;
-  scroll-snap-type: x proximity;
+  max-width: 1500px;
+  justify-self: center;
 }
 
 .customer-testimonial-item {
@@ -606,7 +603,7 @@ nav {
 
 .customer-testimonial-container-items h4 {
   color: var(--blue);
-  font-size: 1.6rem;
+  font-size: 1rem;
   font-family: var(--font-poppins);
   font-weight: 700;
 }
@@ -627,7 +624,7 @@ nav {
 
 .customer-testimonial-data h5 {
   font-family: var(--font-poppins);
-  font-size: 1.2rem;
+  font-size: 1.1.25rem;
 }
 
 .customer-testimonial-data p {
@@ -655,7 +652,7 @@ footer {
 }
 
 .newlester p {
-  font-size: 1.6rem;
+  font-size: 1rem;
   color: var(--blue);
   font-family: var(--font-poppins);
   text-align: center;
@@ -663,7 +660,7 @@ footer {
 
 .newlester h2 {
   color: #0B2E29;
-  font-size: 2rem;
+  font-size: 1.25rem;
 }
 
 .newlester form {
@@ -708,7 +705,7 @@ footer {
 }
 
 .nav-footer-list h2 {
-  font-size: 1.6rem;
+  font-size: 1rem;
   color: var(--blue);
 }
 

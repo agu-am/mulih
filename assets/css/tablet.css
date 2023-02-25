@@ -11,12 +11,12 @@
 h2 {
     width: 400px;
     height: 80px;
-    font-size: 4rem;
+    font-size: 2.5rem;
 }
 
 /* ---- NAV ----  */
 .nav-menu ul a {
-    font-size: 7rem;
+    font-size: 4.5rem;
     line-height: 100px;
 }
 
@@ -31,12 +31,12 @@ h2 {
 }
 
 .home h1 {
-    font-size: 7rem;
+    font-size: 4.5rem;
     line-height: 64px;
 }
 
 .home p {
-    font-size: 3rem;
+    font-size: 2rem;
     margin: 0;
     line-height: 32px;
 }
@@ -48,7 +48,7 @@ h2 {
 }
 
 .home-container-btn button {
-    font-size: 4rem;
+    font-size: 2.5rem;
     height: 100%;
 }
 
@@ -58,7 +58,7 @@ h2 {
 }
 
 .home-form-container div label {
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .down-arrow {
@@ -76,7 +76,7 @@ h2 {
 
 .home form>.home-form-container button {
     height: 70px;
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 /* ---- DISCOVER ---- */
@@ -86,12 +86,12 @@ h2 {
 }
 
 .discover p {
-    font-size: 4rem;
+    font-size: 2.5rem;
     line-height: 48px;
 }
 
 .discover a {
-    font-size: 4rem;
+    font-size: 2.5rem;
 }
 
 .icon-right-arrow-green {
@@ -100,32 +100,36 @@ h2 {
 }
 
 .discover-card h4 {
-    font-size: 4rem;
+    font-size: 1.5rem;
 }
 
 .discover-card p {
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .discover-card .discover-card-detail-price {
-    font-size: 6rem;
+    font-size: 2rem;
 }
 
 .discover-card .discover-card-detail-area {
-    font-size: 3rem;
-    padding: 0 32px;
+    font-size: 2rem;
+    line-height: 24px;
     column-gap: 24px;
+}
+.discover-card .discover-card-detail-area span {
+    font-size: 1.25rem;
+    font-weight: bold;
 }
 
 .discover-card button {
-    height: 80px;
-    font-size: 3rem;
+    height: 48px;
+    font-size: 1.25rem;
 }
 
 /* ---- OUR ADVANTE ---- */
 
 .our-advante h3 {
-    font-size: 7rem;
+    font-size: 4,5rem;
 }
 
 .our-advante-item {
@@ -138,20 +142,20 @@ h2 {
 }
 
 .our-advante-item h4 {
-    font-size: 4rem;
+    font-size: 2.5rem;
 }
 
 .our-advante-item p {
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 /* ---- ABOUT US ---- */
 .about-us .about-us-container-text h3 {
-    font-size: 7rem;
+    font-size: 4,5rem;
 }
 
 .about-us .about-us-container-text p {
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .about-us .about-us-container-text a {
@@ -164,11 +168,11 @@ h2 {
 }
 
 .about-us-rating-container p {
-    font-size: 2.3rem;
+    font-size: 1.5rem;
 }
 
 .about-us-rating-container .review {
-    font-size: 2.3rem;
+    font-size: 1.5rem;
 }
 
 .about-us-container-img {
@@ -183,11 +187,11 @@ h2 {
 }
 
 .about-us-detail-container span {
-    font-size: 4rem;
+    font-size: 2.5rem;
 }
 
 .about-us-detail-container p {
-    font-size: 2rem;
+    font-size: 1,25rem;
 }
 
 /* ---- CUSTOMER TSTIMONIAL ---- */
@@ -201,7 +205,7 @@ h2 {
 }
 
 .customer-testimonial a {
-    font-size: 4rem;
+    font-size: 2.5rem;
 }
 
 .customer-testimonial a i {
@@ -219,11 +223,11 @@ h2 {
 }
 
 .customer-testimonial-container-items h4 {
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .customer-testimonial-container-items p {
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .customer-testimonial-data img {
@@ -231,7 +235,7 @@ h2 {
 }
 
 .customer-testimonial-data h5 {
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 /* ---- FOOTER ---- */
@@ -240,7 +244,7 @@ h2 {
 }
 
 .newlester p {
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .newlester h2 {
@@ -257,20 +261,20 @@ h2 {
 }
 
 .newlester form input:nth-child(1)::placeholder {
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .newlester form input:nth-child(2) {
     height: 100%;
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .nav-footer-list h2 {
-    font-size: 4rem;
+    font-size: 2.5rem;
 }
 
 .nav-footer-list p {
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .instagram {
