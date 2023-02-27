@@ -111,7 +111,7 @@ h2 {
 .home-container-btn button {
     width: 109px;
     height: 56px;
-    font-size: 2.4rem;
+    font-size: 1.5rem;
 }
 
 .home form>.home-form-container button {
@@ -148,7 +148,7 @@ h2 {
     height: 20px;
 }
 .discover-container-cards {
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
 }
 
 .discover-card {
@@ -262,6 +262,9 @@ h2 {
 .customer-testimonial-data img {
     width: unset;
 }
+.customer-testimonial h2 {
+    width: 230px;
+}
 /* ---- FOOTER ---  */
 
 footer {
@@ -318,7 +321,7 @@ footer {
 }
 
 .nav-footer-list h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align: unset;
     width: unset;
     height: unset;
